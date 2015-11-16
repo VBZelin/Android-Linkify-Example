@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Linkify text example</string>
+    <string name="action_settings">Settings</string>
+    <string name="launch_activity">Launch Text1</string>
+    <string name="launch_activity2">Launch Text2</string>
+    <string name="launch_activity3">Launch Text3</string>
+    <string name="test_introduction">"Welcome to Geofencing test, I'm Zelin. Hope every test is going well!"</string>
+
+    // text example one
+    <string name="link_text_auto"><b>text1:</b> This is some text.  In
+      this text are some things that are actionable. For instance,
+      you can click on http://www.google.com and it will launch the
+      web browser.  You can click on google.com too.  And, if you
+      click on (415) 555-1212 it should dial the phone.
+    </string>
+
+    // text example two
+    <string name="link_text_manual"><b>text2:</b> This is some other
+      text, with a <a href="http://www.google.com">link</a> specified
+      via an &lt;a&gt; tag.  Use a \"tel:\" URL
+      to <a href="tel:4155551212">dial a phone number</a>.
+    </string>
+
+    // text example three
+    <string name="link_final_best">Home: Click here to dial the phone.</string>
+</resources>
